@@ -1,5 +1,5 @@
 # Hex Virtualization [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-Developed by <a href="https://github.com/hexck">Hexk</a>
+Developed by <a href="https://github.com/hexck">Hexk</a> and updated by <a href="https://github.com/HideakiAtsuyo">Hideaki</a>
 <br><br>
 
 ## :guardsman: Why do you need Hex Virtualization ? 
@@ -12,6 +12,19 @@ _"Many of us consider particular pieces of code especially important. May it be 
 _Here a radical approach may be useful: to remove all the .NET bytecode instructions from an assembly, and replace it with something completely different and unknown to an external observer, but functionally equivalent to the original algorithm during runtime — this is what the code virtualization actually is."_
 
 <br>
+
+## 📋 Planned
+
+- Update final looking Body (see [Examples](https://github.com/HideakiAtsuyo/Hex-Virtualization#bookmark_tabs-examples))
+- Fix OpCodes
+- Improve Custom OpCodes
+- Fix Broken Injection(DLL Still Needed After Injection)
+- Improve the Runtime Code
+- Add some OpCodes & Custom OpCodes
+- Modify methods encryption
+- Modify methods storage place
+- Add a few protections to the runtime (? [StrawPoll](https://strawpoll.com/polls/40Zmdb012ga) if more `Yes` than `No` [StrawPoll](https://strawpoll.com/polls/e6Z2eQwOXgN))
+- Remove Namespaces to make it more confusing and rename every methods (? [StrawPoll](https://strawpoll.com/polls/7MZ0zwj71no) (details about it in the StrawPoll))
 
 ## :star: How does it work ?
 
@@ -56,5 +69,6 @@ https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-334.pdf <br>
 
 https://docs.microsoft.com/en-us/dotnet/api/system.reflection.emit.opcodes?view=netframework-4.8
 
-_If you got any questions feel free to contact me via discord Hexk#0001_
+_If you got any questions feel free to contact the original author via discord Hexk#0001_ or me on Telegram [@HideakiAtsuyo](https://t.me/HideakiAtsuyo)
 
+[What does this hyperlink do ?](https://github.com/HideakiAtsuyo/Hex-Virtualization/edit/master/README.md#hex-virtualization-)
