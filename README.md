@@ -18,21 +18,16 @@ _Here a radical approach may be useful: to remove all the .NET bytecode instruct
 [Click Here](https://i.imgur.com/sMIvABo.mp4) if it doesn't show anything.
 ![](https://i.imgur.com/sMIvABo.gif)
 
-## 📋 Planned
-
-- Actually no date to publish the updates
-
-- Fix OpCodes
-- Improve Custom OpCodes
-- Improve the Runtime Code
-- Add some OpCodes & Custom OpCodes
-- Modify methods encryption
-- Modify methods storage place
-- Add a few protections to the runtime (? [StrawPoll](https://strawpoll.com/polls/40Zmdb012ga) if more `Yes` than `No` [StrawPoll](https://strawpoll.com/polls/e6Z2eQwOXgN))
-
 ## 🚀 Features
 - [x] Virtualization: Virtualizes code into instructions which only Hex.VM can understand (Main one)
 - [x] Obfuscated runtime (only renaming atm) (no more broken injection)
+- [ ] Fix OpCodes
+- [ ] Improve Custom OpCodes
+- [ ] Improve the Runtime Code
+- [ ] Add some OpCodes & Custom OpCodes
+- [ ] Modify methods encryption
+- [ ] Modify methods storage place
+- [ ] Add a few protections to the runtime (? [StrawPoll](https://strawpoll.com/polls/40Zmdb012ga) if more `Yes` than `No` [StrawPoll](https://strawpoll.com/polls/e6Z2eQwOXgN))
 
 ## :star: How does it work ?
 
