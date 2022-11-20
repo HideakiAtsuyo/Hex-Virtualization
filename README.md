@@ -13,18 +13,26 @@ _Here a radical approach may be useful: to remove all the .NET bytecode instruct
 
 <br>
 
+## 📺 Preview
+
+[Click Here](https://i.imgur.com/sMIvABo.mp4) if it doesn't show anything.
+![](https://i.imgur.com/sMIvABo.gif)
+
 ## 📋 Planned
 
-- Update final looking Body (see [Examples](https://github.com/HideakiAtsuyo/Hex-Virtualization#bookmark_tabs-examples))
+- Actually no date to publish the updates
+
 - Fix OpCodes
 - Improve Custom OpCodes
-- Fix Broken Injection(DLL Still Needed After Injection)
 - Improve the Runtime Code
 - Add some OpCodes & Custom OpCodes
 - Modify methods encryption
 - Modify methods storage place
 - Add a few protections to the runtime (? [StrawPoll](https://strawpoll.com/polls/40Zmdb012ga) if more `Yes` than `No` [StrawPoll](https://strawpoll.com/polls/e6Z2eQwOXgN))
-- Remove Namespaces to make it more confusing and rename every methods (? [StrawPoll](https://strawpoll.com/polls/7MZ0zwj71no) (details about it in the StrawPoll))
+
+## 🚀 Features
+- [x] Virtualization: Virtualizes code into instructions which only Hex.VM can understand (Main one)
+- [x] Obfuscated runtime (only renaming atm) (no more broken injection)
 
 ## :star: How does it work ?
 
@@ -35,7 +43,6 @@ _Here a radical approach may be useful: to remove all the .NET bytecode instruct
 
 ## :fire: What does it do ?
 
-- [x] Virtualizes code into instructions which only Hex.VM can understand
 - [x] Has support for a decent amount of opcodes, as said, this is made for educational purposes and as such I believe these opcodes are enough for people to learn and build on
 - [x] Easy to use, understand, and build on
 
@@ -51,10 +58,9 @@ _Here a radical approach may be useful: to remove all the .NET bytecode instruct
 ```
 #### After:
 ```c#
-    [Hex.VM.Runtime.Util.Id("CJdAcuNrqHcIpi4GQsLjMMbSrvQr4MIXohvn2c3m92mrahj6M", 5204)]
     public int Add()
     {
-        return (int)Hex.VM.Runtime.VirtualMachine.RunVM(new object[]
+        return (int)Hex.VM.Runtime.VirtualMachine.RunVM("Hecker", 1337, new object[]
         {
             this
         });
