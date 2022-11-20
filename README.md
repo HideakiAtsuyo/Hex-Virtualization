@@ -19,6 +19,9 @@ _Here a radical approach may be useful: to remove all the .NET bytecode instruct
 ![](https://i.imgur.com/sMIvABo.gif)
 
 ## 🚀 Features
+
+- [ ] __**[Released Full Update]**__
+
 - [x] Virtualization: Virtualizes code into instructions which only Hex.VM can understand (Main one)
 - [x] Obfuscated runtime (only renaming atm) (no more broken injection)
 - [ ] Fix OpCodes
