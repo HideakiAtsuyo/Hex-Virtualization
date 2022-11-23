@@ -15,8 +15,8 @@ _Here a radical approach may be useful: to remove all the .NET bytecode instruct
 
 ## 📺 Preview
 
-[Click Here](https://i.imgur.com/sMIvABo.mp4) if it doesn't show anything.
-![](https://i.imgur.com/sMIvABo.gif)
+[Click Here](https://i.imgur.com/cVntYFD.mp4) if it doesn't show anything.
+![](https://i.imgur.com/cVntYFD.gif)
 
 ## 🚀 Features
 
@@ -25,13 +25,18 @@ _Here a radical approach may be useful: to remove all the .NET bytecode instruct
 - [x] Virtualization: Virtualizes code into instructions which only Hex.VM can understand (Main one)
 - [x] Obfuscated runtime (only renaming atm) (no more broken injection)
 - [ ] Fix OpCodes
+  - [ ] Not completed (see the [preview](https://github.com/HideakiAtsuyo/Hex-Virtualization#-preview))
 - [ ] Improve Custom OpCodes
 - [ ] Improve the Runtime Code
 - [ ] Add some OpCodes & Custom OpCodes
+  - Will add list later
 - [ ] Modify methods encryption
-- [ ] Modify methods storage place
-- [ ] Add a few protections to the runtime (? [StrawPoll](https://strawpoll.com/polls/40Zmdb012ga) if more `Yes` than `No` [StrawPoll](https://strawpoll.com/polls/e6Z2eQwOXgN))
-
+- [x] Modify methods storage place (just moved to Runtime DLL Resources, will change later.)
+- [ ] Add a few protections to the runtime ([StrawPoll](https://strawpoll.com/polls/e6Z2eQwOXgN))
+  - [x] Strings
+  - [x] Import Protections
+  - [ ] Mutations
+  
 ## :star: How does it work ?
 
 - MSIL to VMIL
