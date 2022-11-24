@@ -28,10 +28,12 @@ _Here a radical approach may be useful: to remove all the .NET bytecode instruct
   - [ ] Not completed (see the [preview](https://github.com/HideakiAtsuyo/Hex-Virtualization#-preview))
 - [ ] Improve Custom OpCodes
 - [ ] Improve the Runtime Code
-- [ ] Add some OpCodes & Custom OpCodes
+- [x] Add some OpCodes & Custom OpCodes
   - Will add list later
-- [ ] Modify methods encryption
+- [x] Modify methods encryption
+  - Well only compressed now not encrypted anymore :)
 - [x] Modify methods storage place (just moved to Runtime DLL Resources, will change later.)
+  - Move to a array ?
 - [ ] Add a few protections to the runtime ([StrawPoll](https://strawpoll.com/polls/e6Z2eQwOXgN))
   - [x] Strings
   - [x] Import Protections
