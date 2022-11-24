@@ -35,9 +35,9 @@ _Here a radical approach may be useful: to remove all the .NET bytecode instruct
 - [x] Modify methods storage place (just moved to Runtime DLL Resources, will change later.)
   - Move to a array ?
 - [ ] Add a few protections to the runtime ([StrawPoll](https://strawpoll.com/polls/e6Z2eQwOXgN))
-  - [x] Strings
-  - [x] Import Protections
-  - [ ] Mutations
+  - [x] Strings (Runtime & Virtualized Methods)
+  - [x] Import Protections (Runtime)
+  - [x] Renaming (Runtime + Module)
   
 ## :star: How does it work ?
 
